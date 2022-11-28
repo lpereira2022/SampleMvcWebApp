@@ -4,6 +4,11 @@
     nexusIqService: 'IQ server'
     applicationId: 'Sample__lpereira2022Sample'
     stage: 'Build'
+- task: NexusIqPipelineTask@1
+  inputs:
+    nexusIqService: 'IQ server'
+    applicationId: 'Sample__lpereira2022Sample'
+    stage: 'Build'
 # Build and test ASP.NET projects.
 # Add steps that publish symbols, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
